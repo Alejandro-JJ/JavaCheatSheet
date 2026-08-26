@@ -2,6 +2,12 @@
 A quick help from myself to myself to avoid confusions with Python
 
 ### Size
+| type | size|
+|---|---|
+|array | .length|
+| string | .length()|
+| list| .size()|
+
 
 ### Strings
 
