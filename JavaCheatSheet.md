@@ -1,6 +1,7 @@
 # Java - CheatSheet
 A quick help from myself to myself to avoid confusions with Python
 
+### Size
 
 ### Strings
 
