@@ -57,7 +57,7 @@ Colelctions.sort(list);
 ****
 
 
-###  (mutable, works like a dictionary)
+### HashMap (mutable, works like a dictionary)
 ```
 import java.util.HasMap;
 
@@ -73,7 +73,7 @@ map.isEmpty();
 ****
 
 
-###  (minHeap)
+###  PriorityQueue (minHeap)
 
 ```
 import java.util.PriorityQueue;
