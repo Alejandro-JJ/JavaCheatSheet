@@ -90,3 +90,15 @@ pq.remove();
 pq.isEmpty();
 pq.contains()
 ```
+****
+
+### Deque (pops easily)
+import java.util.ArrayDeque;
+Deque <int[]> stack = new ArrayDeque<>();
+stack.isEmpty();
+stack.addLast();
+stack.addFirst();
+stack.pollLast();
+stack.pollFirst();
+
+
