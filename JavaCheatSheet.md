@@ -1,5 +1,9 @@
 # Java - CheatSheet
 A quick help from myself to myself to avoid confusions with Python
+```
+javac src/App.java
+java -cp src App
+```
 
 ### Size
 | type | size|
@@ -20,11 +24,15 @@ name.toUpperCase();
 name.toLowerCase();
 name.equals();
 name.toCharArray();	// Useful when iterating thought chars
+StringBuilder word = new Stringbuilder();
+word.append(...)
+word.toString();
 ```
 
 ****
 
 ### Arrays
+
 ``` 
 import java.util.Arrays;
 
@@ -39,6 +47,7 @@ Arrays.fill(arr, 1);	// Useful when initializing
 
 
 ### Array lists (mutable!)
+
 ```
 import java.util.ArrayList;
 import java.util.List;
@@ -47,17 +56,20 @@ import java.util.Collections;
 List <Integer> list = new ArrayListy<>();
 list.add(num);		// Append num at the end
 list.add(idx, num);	// Insert num at idx
+list.get();        // To retrieve elements!
 list.set(idx, num);	// Replace position idx with num
 list.size();
 list.contains();
 list.indexOf();
 list.isEmpty();
 Colelctions.sort(list);
+list.toArray();
 ```
 ****
 
 
 ### HashMap (mutable, works like a dictionary)
+
 ```
 import java.util.HasMap;
 
@@ -69,8 +81,20 @@ map.containsKey();
 map.containsValue();
 map.keySet();			// Great of iterations
 map.isEmpty();
+map.get(key) = map.get(key)+x; // expand/change value
 ```
 ****
+
+### HashSet (quick lookup!)
+
+```
+import java.util.HashSet;
+HashSet <Integer> seen = new HashSet<>();
+seen.add();
+seen.contains();
+
+```
+
 
 
 ###  PriorityQueue (minHeap)
@@ -93,6 +117,8 @@ pq.contains()
 ****
 
 ### Deque (pops easily)
+
+```
 import java.util.ArrayDeque;
 Deque <int[]> stack = new ArrayDeque<>();
 stack.isEmpty();
@@ -100,5 +126,6 @@ stack.addLast();
 stack.addFirst();
 stack.pollLast();
 stack.pollFirst();
+```
 
 
